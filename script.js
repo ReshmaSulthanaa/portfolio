@@ -1,4 +1,4 @@
-// Typing Effect
+
 const roles = ["Full Stack Developer", "AIML Developer", "Problem Solver"];
 let i = 0;
 let j = 0;
@@ -26,7 +26,7 @@ function typeEffect() {
 }
 typeEffect();
 
-// Scroll animation
+
 const elements = document.querySelectorAll(".fade-in");
 
 window.addEventListener("scroll", () => {
@@ -35,4 +35,5 @@ window.addEventListener("scroll", () => {
             el.classList.add("show");
         }
     });
+
 });
